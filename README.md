@@ -1,11 +1,34 @@
 # ARIADNE
-The LANL O# (O5151) 
+O# (O5151) 
 
 The code ARIADNE performs uncertainty quantification of experimental data for nuclear data. It also performs nuclear data evaluations with the algorithm generalized squares.
 
+Experimental uncertainty quantification is performed for experimental data that is usually pulled from the EXFOR database. The EXFOR database is an open-access database with
+nuclear reaction experiments that have been measured. EXFOR data are used as examples for demonstrating ARIADNE. These data are published under a CC BY 4.0 license (https://nds.iaea.org/nrdc/exfor-master/). ARIADNE ingests these data together with user-defined information on uncertainties that are either retrieved from the open-access database EXFOR or the open literature. It produces as output total covariances for these experimental data based on uncertainty quantification algorithms proposed in the open literature. 
 
+Nuclear data evaluations are performed based on user-defined input; that is experimental data and covariances provided by ARIADNE and user-defined prior input. Prior input is
+either produced via the LANL open-source codes CoH3 or CGMF. It produces evaluated nuclear data that are then released to U.S. open-access nuclear data libraries such as ENDF/B-VII.0 and later ENDF/B libraries. These Evaluated Nuclear Data File (ENDF/B) nuclear data libraries are publicly released (open-access and with unlimited distribution) by the NNDC, BNL (https://www.nndc.bnl.gov/endf-releases/).
+
+© 2026. Triad National Security, LLC. All rights reserved.
+
+## Authors
+D. Neudecker, N.A.W. Walton, A. Khatiwada
+
+## Requirements
+- python >=3.5, 
+- python notebooks, 
+- numpy,
+- scipy,
+- lxml,
+- matplotlib,
+- pylab.
+
+## Installation
+
+## License 
 This program is Open-Source under the BSD-3 License.
 
+Copyright (c) 2026, Los Alamos National Laboratory
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 - Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
 - Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
