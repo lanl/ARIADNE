@@ -23,9 +23,8 @@ D. Neudecker, N.A.W. Walton, A. Khatiwada
 - matplotlib>=3.8.
 
 ## Installation
-- Download or cloned ARIADNE,
-- cd ARIADNE,
-- Open the jupyter example notebook: /Examples/LoadReferenceData/LoadNewData.ipynb and run it. That installs the reference library on your computer necessary for uncertainty quantification.
+- Download or clone ARIADNE,
+- Open the jupyter example notebookin: ARIADNE/Examples/LoadReferenceData/LoadNewData.ipynb and run it within the jupyter notebook. That installs the reference library on your computer necessary for uncertainty quantification.
 - Try running the example python notebooks in the "Examples/" folder to see how the notebooks work.
 
 ## License 
