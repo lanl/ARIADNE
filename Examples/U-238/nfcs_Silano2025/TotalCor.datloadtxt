@@ -1,0 +1,6 @@
+# line 2: x-coordinate lattice, line 3: y-coordinate lattice starting line 4: correlation entries, each line a row
+1.8 4.6 6.4
+1.8 4.6 6.4
+1.0 0.458818608836025 0.4599963970426415
+0.4588186088360251 1.0 0.7384158937861227
+0.45999639704264156 0.7384158937861225 1.0

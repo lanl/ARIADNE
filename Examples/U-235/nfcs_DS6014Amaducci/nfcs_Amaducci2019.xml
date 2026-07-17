@@ -1,0 +1,6 @@
+<reactionSuite projectile="n" target="U-235" formatVersion="GND 1.7" library="Estimated experimental data and covariances" version="0.1" projectileFrame="lab"><styles><exp_unc name="estimated experimental uncertainty" date="2026-07-17"/></styles><documentations><documentation name="Amaducci2019_U-235_cs">"EXFOR No. = 23453002. 
+Journal article = European Physical Journal A: Hadrons and Nuclei, Vol.55, p.120 (2019), Germany. - Roberto said to re-bin it to the GMA grid in the energy range outside of the Standards (RRR), but the binning is already rather coarse so that above 2 keV in most GMA bins, only one data point can be found. So re-binning does not make sense there.
+- I will re-bin data until 1.7 keV and then leave the original data in. This was verified with Roberto.
+- They did important corrections for background, impurities, detector efficiency, multiple scattering and attenuation, and neutron flux differences between the different samples. I think a well-done measurementl.
+- The data are shape data as they were normalizated to the integral of the cross section from 7.8&#8211;11.0eV. Due to that, I ignore all normalization uncertainties.
+- I do not add impurity uncertainties as the sample is very pure.</documentation></documentations></reactionSuite>

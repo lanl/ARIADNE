@@ -1,0 +1,18 @@
+<reactionSuite projectile="n" target="U-238" formatVersion="GND 1.7" library="Estimated experimental data and covariances" version="0.1" projectileFrame="lab"><styles><exp_unc name="estimated experimental uncertainty" date="2026-07-17"/></styles><documentations><documentation name="DS6004_U-238_cs">EXFOR No. = none; Journal article = J. Silano et al., LLNL-TR- 2011630 
+(2025); C. Bhatia et al., NIMA 757 (2014), p. 7-19; J.A. Silano et al., NIMA 1063 (2024) 
+169234, LLNL-TR-2017543 (2026). This data set was provided in private communication with the literature described
+above. The first information was rough (with lots of information by the authors themselves). Then, they provided a very nice write-up in 2026 in addition.
+- In their 2026 report, they are clear that this is an independent validation of the fissionTPC data set with  fission chamber and mono-energetic neutrons.
+- They measured thermal and room return background with various foils, including wrapped in Cd and without. They can make a clear statement how uncertain their background is.
+- They measured with four different methods the sample mass.
+- They re-aligned the sample after flipping the target with high precision. This should take care of kinematic boost and neutron beam divergence effects. Both effects were also MC simulated. The divergence was shown to be corrected well by rotating the chamber for both Pu9/U235 and Pu9/U238 ratios.
+- They corrected for off-energy neutrons.
+- They corrected also forward-boost, sample thickness and angular distributions with MCNP simulations of the detector efficiency.
+- The neutron energy determination was measured with a scintillator and counter-checked with MCNP. The results agree well.
+In 2025, only statistical and systematic uncertainties were provided that were later more detailed. The authors 
+were very responsive to my questions. 
+Based on this email, the statistical unc. include the off-energy background and the statistical component of the detector efficiency uncertainty.
+Multiple scattering unc. are negligible per quick simulations; thus, I assume the template value as a stand-in as not yet simulated in detail.
+I assume the template detector efficienct unc. at the lower end as they have thought about part of it (stopping power),
+but not all. For instance, angular distribution effects and sample roughness were not considered.
+</documentation></documentations></reactionSuite>

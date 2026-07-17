@@ -1,0 +1,4 @@
+<reactionSuite projectile="n" target="B-10" formatVersion="GND 1.7" library="Estimated experimental data and covariances" version="0.1" projectileFrame="lab"><styles><exp_unc name="estimated experimental uncertainty" date="2026-07-17"/></styles><documentations><documentation name="Amaducci2019_B-10_cs">"EXFOR No. = 23453010. Journal article = European Physical Journal A: Hadrons and Nuclei, Vol.55, p.120 (2019), Germany. # EXFOR uncertainties are: statistical only.
+# Additional uncertainties: variational uncertainties (eff cut) for B-10, Li-6, attenuation, forward angle, background unc.
+# The data are shape data of B-10/L-6.
+# No issue found.</documentation></documentations></reactionSuite>
