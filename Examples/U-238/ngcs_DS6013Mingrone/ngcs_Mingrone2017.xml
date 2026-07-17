@@ -1,0 +1,12 @@
+<reactionSuite projectile="n" target="U-238" formatVersion="GND 1.7" library="Estimated experimental data and covariances" version="0.1" projectileFrame="lab"><styles><exp_unc name="estimated experimental uncertainty" date="2026-07-17"/></styles><documentations><documentation name="ngcs_Mingrone2017_U-238_cs">EXFOR No. = 23234004 
+Journal article = F.Mingrone et al., PR/C,95,034604,2017.
+- 23234004 and 23234005 are from the same raw data, but 23234004 is given with broader energy bins. I take 23234004 as the Standards use averaged data.
+- We decided to truncate data due to the second concern above 80 keV. Roberto Capote mentioned background concerns.
+- A well-documented data set. I have two areas of concern: The one area of concern is that the neutron flux is evaluated using several reactions as we have previously seen for n_TOF measurements. My second area of concern is the fact that a strong deviation from VIII.1 can be seen from 80 keV to 400 keV. They agree with Ullman data but disageree with Carlson 2009 data. No justification is given in the paper.
+- In EXFOR, it is written: "Flux was monitored during measurement by a silicon based neutron beam monitor (SiMoN) relying on 6Li(n,t) reaction." However, the data are only given as 238U(n,g) cs in EXFOR not in ratio to 6Li(n,t) cs. For the Standards, it would be better to have the 238U(n,g)/6Li(n,t) ratios. I wonder if we could get them? ... Reading the journal article, this is the typical n_TOF evaluated neutron flux. There is little hope in getting ratio data. So, I will move forward without it.
+- The method used is the "total energy detection technique".
+- The sample mass uncertainty of 0.1% is on the low end but realistic for a metal sample.
+- There is no impurity uncertainty given but the sample has extremely high purity. Therefore, I set this to 0.
+- All uncertainties expected by the templates of expected measurement uncertainties are provided.
+- All important effects were corrected as far as I can see.
+</documentation></documentations></reactionSuite>
