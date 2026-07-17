@@ -24,6 +24,7 @@ D. Neudecker, N.A.W. Walton, A. Khatiwada
 - pylab.
 
 ## Installation
+Once you downloaded/ cloned ARIADNE, the first step is to open the example notebook in /Examples/LoadReferenceData/LoadNewData.ipynb and run it. That installs the reference library on your computer necessary for uncertainty quantification.
 
 ## License 
 This program is Open-Source under the BSD-3 License.
