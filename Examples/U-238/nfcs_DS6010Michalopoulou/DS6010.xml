@@ -1,0 +1,15 @@
+<reactionSuite projectile="n" target="U-238" formatVersion="GND 1.7" library="Estimated experimental data and covariances" version="0.1" projectileFrame="lab"><styles><exp_unc name="estimated experimental uncertainty" date="2026-07-17"/></styles><documentations><documentation name="DS6010_U-238_cs">EXFOR No. = 23657003; Journal article = V.Michalopoulou et al., Physical Review, Part C, Nuclear Physics, Vol.108, p.014616 (2023).
+- This U-238(n,f)/U-235(n,f) is an absolute clean ratio measurement. The sample mass was determined with alpha counting.
+- The data above 30 MeV are called out as biased by the authors because they needed to apply a lower voltage above 30 MeV for this sample which caused issues.
+- The EXFOR file is very short for a recent measurement and is missing many uncertainty sources.
+- Many more uncertainties are given in the paper than in the EXFOR entry. All pertinent uncertainties were documented except for impurity uncertainties which I assume with 0.1 % from the tempaltes.
+- Losses of FF in the sample were claculated assuming isotropic angular distributions, which are non-negligible at the threshold and multiple-chance fission.
+- They state that their deadtime unc. is negligibly small with &lt; 1% which is large for a U-8 measurement. I assume 0.5% which is on the higher end. The correction is energy dependent. I assume a strong correlation given the write-up of 0.8.
+- They give an uncertainty for the "amplitude cut and self-absorption correction"; this is a combined background (alphas and gammas) and detector efficiency (FF losses) unc. defined in Table 2. The amplitude cut is fully correlated as the correction is NOT energy dependent, but the FF absorption is energy dependent. So, I list it as Gaussian correlated.
+- They have a beam-overlap issue as the beam is non-uniform, nor are their smaples. They assume 3.5% uncertainties that would also affect U-235 and U-238. The correction is energy dependent. I assume a Gaussian correlation.
+- Concern: Forward boost was not mentioned in the corrections and that can matter for these high energies, but hopefully small because ratio measurement.
+- Concern: FF were assumed to be emitted isotropically which is not true at the trehshold and multiple c.f.
+- I assume a small impurity uncertainty from templates as the samples are described as of high purity.
+- All an said their method using the gamma flash is novel but not validated in paper; could lead to biases.
+- The energy resolution is retrieved from https://doi.org/10.1140/epja/s10050-025-01727-x .
+</documentation></documentations></reactionSuite>
