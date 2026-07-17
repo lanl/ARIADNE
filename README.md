@@ -15,13 +15,12 @@ either produced via the LANL open-source codes CoH3 or CGMF. It produces evaluat
 D. Neudecker, N.A.W. Walton, A. Khatiwada
 
 ## Requirements
-- python >=3.5, 
-- python notebooks, 
-- numpy,
-- scipy,
-- lxml,
-- matplotlib,
-- pylab.
+- python >=3.9,
+- numpy>=1.26,
+- scipy>=1.13.1,
+- jupyter,
+- lxml>=5.2,
+- matplotlib>=3.8.
 
 ## Installation
 Once you downloaded/ cloned ARIADNE, the first step is to open the example notebook in /Examples/LoadReferenceData/LoadNewData.ipynb and run it. That installs the reference library on your computer necessary for uncertainty quantification.
