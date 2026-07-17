@@ -1233,9 +1233,9 @@ class nfcs_cleanratioabsolute(nfcs):
         # interpolates first derivative 
         deriv_nucdata = array(interp(self.einc,latticederiv,dataderiv))
 
-        for index in arange(0,shape(latticederiv)[0]-1):
-            if latticederiv[index]-latticederiv[index+1] == 0:
-                print(latticederiv[index])
+        #for index in arange(0,shape(latticederiv)[0]-1):
+        #    if latticederiv[index]-latticederiv[index+1] == 0:
+        #        print(latticederiv[index])
         # -----------------------------------------------------------------------
         
         # calculates cov_Eunc due to enerr --------------------------------------
@@ -1967,7 +1967,7 @@ class nfcs_cleanratioshape(nfcs):
 
             # convert to SI units ---------------------------------------------------
             trsl_val_SI = BPF.conversion_to_SIUnits(self.trsl_val,self.trsl_unit)
-            print(self.tof_length_val,self.tof_length_unit)
+            #print(self.tof_length_val,self.tof_length_unit)
             tof_length_val_SI = BPF.conversion_to_SIUnits(self.tof_length_val,self.tof_length_unit) 
             neutron_mass_SI = BPF.conversion_to_SIUnits(NEUTRON_MASS['value'],NEUTRON_MASS['unit'])
             conversionfactor_E = BPF.conversion_to_SIUnits(1.0,self.einc_unit)
@@ -2026,7 +2026,6 @@ class nfcs_cleanratioshape(nfcs):
             # ...................................................................
             
         cov_eunc += sub_cov
-        print(sqrt(diag(cov_eunc)))
         # -----------------------------------------------------------------------
         
         

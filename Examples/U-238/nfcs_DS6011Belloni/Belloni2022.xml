@@ -1,0 +1,8 @@
+<reactionSuite projectile="n" target="U-238" formatVersion="GND 1.7" library="Estimated experimental data and covariances" version="0.1" projectileFrame="lab"><styles><exp_unc name="estimated experimental uncertainty" date="2026-07-17"/></styles><documentations><documentation name="Belloni2022_U-238_cs">EXFOR No. = 23653004; Belloni et al., European Physical Journal A: Hadrons and Nuclei, Vol.58, p.227 (2022). 
++) They give two U-238 cross sections because they used two different samples in two different, but identically built fission chambers. I treat them as separate measurements with correlated uncertainties.
++) This is the measurement of FC2 with Pu-242 and U-238.
++) Partial uncertainties for all uncertainties given that I would expect from the templates except for background. Very detailed.
++) Missing correction: forward boost.
++) This is an absolute measurement in ratio to H-1. Unfortunately, theu used H-1 angular distribution from ENDF/B-V.0), which changed by about 1%. I re-normalized with a correction factor provided by Roberto.
++) My only concern regarding corrections is that the forward-boost is not mentioned and that matters for the 14-MeV point.
++) Correlated uncertainties: neutron flux, deadtime, number of target atoms (same method, 0.5), multiple scattering (same method, different samples in beam 0.5), det eff. (same methods, different sample in beam).+) The only uncertainty not provided is background. They state that the background for U-238 is very low. I used the template value of 0.2%</documentation></documentations></reactionSuite>

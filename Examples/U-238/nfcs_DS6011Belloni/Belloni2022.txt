@@ -1,0 +1,5 @@
+#EN          EN-RSL-FW   DATA      1 ERR-T     1 DATA      2 ERR-T     2 ERR-6       ERR-9     1 ERR-9     2 ERR-11    1 ERR-11    2 ERR-13      
+#MEV         MEV         B           PER-CENT    B           PER-CENT    PER-CENT    PER-CENT    PER-CENT    PER-CENT    PER-CENT    PER-CENT    
+2.51        0.14        0.5259      2.95        0.5317      2.95        1.90        0.84        1.15        0.6         0.5         0.3         
+14.83       0.57        1.1636      3.67        1.2260      3.75        2.90        0.72        1.24        0.4         0.3         0.8         
+

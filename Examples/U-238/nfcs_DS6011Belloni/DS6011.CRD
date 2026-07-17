@@ -1,0 +1,29 @@
+60112022U8(n,f)                 Belloni (FC1)               J,EPJ-A,58(2022)
+ 1 1 0 0 11    2 10  0  0  0  0
+ UNCERTAINTIES
+ 1 Normal. unc.: U8 normalization, impurity (deadtime negligible)
+ 1 Energy unc. assumed to be 20% of energy resolution.
+ 2 Energy resl explicitly given.
+ 3 Statistical Unc.
+ 4 small background from templates (background small)
+ 5 Multiple scattering and attenuation uncertainty
+ 6 Neutron flux unc.
+ 7 Detector efficiency unc. (Zero bias corr. of 238U)
+ Forward boost correction not mentioned.
+ Data extracted from a Pu-240/U-238 measurement (neutron flux measured by H-1 too).
+  2.0  0.1  0.0  0.0  0.0  0.0  0.0  0.0  0.0  0.0  1  1  0  0  0  0  0  0  0  0
+ 0.99 0.01 0.50
+ 0.00 0.00 0.00
+ 0.00 0.00 0.00
+ 0.10 0.90 0.01
+ 0.99 0.01 0.50
+ 0.99 0.01 0.50
+ 0.99 0.01 0.50
+ 0.50 0.50 0.50
+ 0.50 0.50 0.50
+ 0.50 0.50 0.50
+ 0.50 0.50 0.50
+  0  0  9  1  1  1  1  0  0  0  0
+      2.51    0.5247  0.5  2.4  0.8  0.2  0.6  1.9  0.3  0.0  0.0  0.0  0.0  0.0  0.0  0.0
+     14.83     1.155  0.3  1.6  0.7  0.2  0.4  2.9  0.8  0.0  0.0  0.0  0.0  0.0  0.0  0.0
+EBEBEBEBEBEB

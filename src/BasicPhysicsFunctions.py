@@ -228,8 +228,8 @@ def derivativefirst_linlininterpolation(lattice,data):
 
     for index in arange(0,dim-1):
         data_derivative[index] = (data[index+1]-data[index])/(lattice[1+index]-lattice[index])
-        if (lattice[1+index]-lattice[index])==0:
-            print(lattice[1+index])
+        #if (lattice[1+index]-lattice[index])==0:
+        #    print(lattice[1+index])
     # -------------------------------------------        
 
     return lattice_derivative,data_derivative
